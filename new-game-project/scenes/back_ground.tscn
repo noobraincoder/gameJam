@@ -1,5 +1,11 @@
 [gd_scene format=3 uid="uid://ddu6vwgp70foj"]
 
+[ext_resource type="Texture2D" uid="uid://4q335xxs2p" path="res://icon.svg" id="1_8lwin"]
+
+[node name="BackGround" type="Node2D" unique_id=2063858163]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1712249792]
+texture = ExtResource("1_8lwin")
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2m80p"]
 
 [node name="BackGround" type="Node2D" unique_id=309268424]
