@@ -1,3 +1,10 @@
 [gd_scene format=3 uid="uid://ddu6vwgp70foj"]
 
-[node name="BackGround" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2m80p"]
+
+[node name="BackGround" type="Node2D" unique_id=309268424]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=274563289]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=363376009]
+shape = SubResource("RectangleShape2D_2m80p")
